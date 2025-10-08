@@ -4,6 +4,8 @@ body {
   font-family: 'Inter', sans-serif;
   height: 100vh;
   overflow-x: hidden;
+  margin: 0;
+  border: 0;
 }
 
 
@@ -477,7 +479,7 @@ label:after:active {
   color: rgb(58 186 180);
 }
 
-.videoP  {
+.videoP {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
@@ -521,7 +523,7 @@ label:after:active {
   font-size: 22px;
   color: #414142;
   margin-bottom: 20px;
- 
+
 }
 
 
@@ -565,6 +567,159 @@ label:after:active {
 }
 
 
+.start {
+  background: black;
+}
+
+.start .start-p h2 {
+  text-align: center;
+  font-size: 55px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #f2f2f2;
+  padding-top: 60px;
+}
+
+.start .start-p p {
+  text-align: center;
+  font-size: 22px;
+  color: #f2f2f2;
+  margin-bottom: 50px;
+
+}
+
+.start-slide {
+  display: flex;
+  flex-direction: row;
+  margin-left: 180px;
+  margin-right: 80px;
+  color: #f2f2f2;
+}
+
+.start-3-s .slide1 {
+  border-radius: 1px;
+  background: #fff;
+  color: #242424;
+  border: none;
+
+}
+
+
+.start-3-s {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.slide1 {
+  width: 26%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 15px;
+  
+
+}
+
+.slide1 > div > div:first-child{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.slide1 > div > div:first-child p:first-child {
+   font-size: 18px;
+  font-weight: bold;
+}
+
+.slide1 > div > div:first-child p:last-child {
+  font-size: 12px;
+  color:rgb(58 186 180) ;
+  background-color: rgb(58, 186, 180,0.4);
+  border-radius: 45%;
+  width: 45px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.start-ul ul li span {
+  display: inline;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+  color: #8d8d95;
+  padding-left: 0px;
+  white-space: nowrap;
+ 
+}
+
+.slide1 > div > div:nth-child(2) span:nth-child(2) {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.slide1 > div > div:nth-child(2) span:first-child {
+  font-size: 24px;
+  color: #8d8d95;
+}
+
+
+.slide1 button {
+  padding: 8px 0 ;
+  border-radius: 3px;
+  width: 100%;
+ border: none;
+ background-color: rgb(58 186 180);
+
+ 
+}
+
+.slide1 button a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 14px;
+  white-space: nowrap;
+  font-weight: bold;
+
+ 
+  
+}
+
+.start-ul ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.start-ul ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  color: #414142;
+}
+
+.start-ul p {
+  font-size: 20px;
+}
+
+.start-ul ul li::before {
+   content: "✓";
+  color: rgb(58 186 180);
+  display: inline-block;
+  line-height: 1;
+}
 
 /*Responsive */
 @media (max-width: 790px) {
