@@ -491,7 +491,7 @@ label:after:active {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  width: 45%;
+  width: 40%;
   margin-bottom: 20px;
 
 
@@ -501,6 +501,7 @@ label:after:active {
   border-radius: 4px;
   box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
   border: none;
+  background-color: #dddde6;
 
 }
 
@@ -509,11 +510,13 @@ label:after:active {
   width: 100%;
   height: auto;
 
+
 }
 
 .video-play p {
   display: inline-block;
-  margin: 20px 12px;
+  margin: 10px 12px;
+
 
 }
 
@@ -830,6 +833,7 @@ label:after:active {
 
 .clar2 .card {
   padding: 30px 15px;
+  cursor: pointer;
 
 }
 
@@ -918,6 +922,117 @@ label:after:active {
 
 
 
+.footlogo img {
+  display: block;
+  width: 40px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+
+.footersec {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.div-footer {
+  display: grid;
+  grid-template-columns: 1fr repeat(4, 1fr);
+  gap: 15px;
+  align-items: start;
+  padding: 0 10px;
+}
+
+
+.div-footer h6 {
+  font-size: 14px;
+  color: #515152;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+
+.div-footer ul li a {
+  text-decoration: none;
+  color: #515152;
+}
+
+
+.div-footer ul li a:hover {
+  text-decoration: underline;
+
+}
+
+.div-footer ul li {
+  list-style: none;
+
+
+}
+
+.div-footer ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-size: 14px;
+
+
+}
+
+
+.div-footer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-icon ul   {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.footer-icon ul a {
+  font-size: 30px;
+  color:rgb(70, 191, 185) ;
+  cursor: pointer;
+
+}
+
+.footer-icon ul a:hover {
+  color: #0c9083;
+}
+
+
+.footer-icon ul li {
+  list-style: none;
+}
+
+
+.div-footer1 a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #515152;
+  gap: 6px;
+  
+  
+}
+
+.div-footer1 a:hover {
+  text-decoration: underline;
+}
+
+.cruip {
+    font-size: 14px;
+  color: #515152;
+}
 
 
 
