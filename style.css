@@ -9,7 +9,10 @@ body {
 }
 
 
-
+body > div {
+  margin-left: 150px ;
+  margin-right: 150px;
+}
 
 * {
   box-sizing: border-box
@@ -623,6 +626,7 @@ label:after:active {
   flex-direction: column;
   justify-content: space-between;
   padding: 10px 15px;
+  margin-bottom: 80px;
   
 
 }
@@ -685,6 +689,11 @@ label:after:active {
  
 }
 
+.slide1 button:hover {
+  cursor: pointer;
+  background-color: rgb(69, 163, 158);
+}
+
 .slide1 button a {
   text-decoration: none;
   color: #f2f2f2;
@@ -720,6 +729,65 @@ label:after:active {
   display: inline-block;
   line-height: 1;
 }
+
+
+.testimonials {
+  margin-top: 40px;
+  margin-left: 150px ;
+  margin-right: 150px;
+}
+
+.test-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.test-1 > div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.test-1 .testimg {
+  padding: 30px;
+}
+
+.test-1 .testimg  img {
+  width: 10%;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.test-1 .testimg > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.test-1 .testimg > div:nth-child(2) p {
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  color: #414142;
+ 
+}
+
+
+.test-1 .testimg > div:nth-child(3)  {
+  text-align: center;
+}
+
+
+.test-1 .testimg > div:nth-child(3) a {
+  color: rgb(58 186 180);
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
 
 /*Responsive */
 @media (max-width: 790px) {
