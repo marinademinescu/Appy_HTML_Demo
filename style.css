@@ -9,8 +9,8 @@ body {
 }
 
 
-body > div {
-  margin-left: 150px ;
+body>div {
+  margin-left: 150px;
   margin-right: 150px;
 }
 
@@ -18,6 +18,11 @@ body > div {
   box-sizing: border-box
 }
 
+
+hr {
+  border-top: 1px rgba(177, 175, 175, 0.6);
+  margin: 10px 50px;
+}
 
 .hlogo img {
   width: 40px;
@@ -627,11 +632,11 @@ label:after:active {
   justify-content: space-between;
   padding: 10px 15px;
   margin-bottom: 80px;
-  
+
 
 }
 
-.slide1 > div > div:first-child{
+.slide1>div>div:first-child {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -639,15 +644,15 @@ label:after:active {
   font-weight: bold;
 }
 
-.slide1 > div > div:first-child p:first-child {
-   font-size: 18px;
+.slide1>div>div:first-child p:first-child {
+  font-size: 18px;
   font-weight: bold;
 }
 
-.slide1 > div > div:first-child p:last-child {
+.slide1>div>div:first-child p:last-child {
   font-size: 12px;
-  color:rgb(58 186 180) ;
-  background-color: rgb(58, 186, 180,0.4);
+  color: rgb(58 186 180);
+  background-color: rgb(58, 186, 180, 0.4);
   border-radius: 45%;
   width: 45px;
   height: 25px;
@@ -665,28 +670,28 @@ label:after:active {
   color: #8d8d95;
   padding-left: 0px;
   white-space: nowrap;
- 
+
 }
 
-.slide1 > div > div:nth-child(2) span:nth-child(2) {
+.slide1>div>div:nth-child(2) span:nth-child(2) {
   font-size: 50px;
   font-weight: bold;
 }
 
-.slide1 > div > div:nth-child(2) span:first-child {
+.slide1>div>div:nth-child(2) span:first-child {
   font-size: 24px;
   color: #8d8d95;
 }
 
 
 .slide1 button {
-  padding: 8px 0 ;
+  padding: 8px 0;
   border-radius: 3px;
   width: 100%;
- border: none;
- background-color: rgb(58 186 180);
+  border: none;
+  background-color: rgb(58 186 180);
 
- 
+
 }
 
 .slide1 button:hover {
@@ -701,8 +706,8 @@ label:after:active {
   white-space: nowrap;
   font-weight: bold;
 
- 
-  
+
+
 }
 
 .start-ul ul {
@@ -724,7 +729,7 @@ label:after:active {
 }
 
 .start-ul ul li::before {
-   content: "✓";
+  content: "✓";
   color: rgb(58 186 180);
   display: inline-block;
   line-height: 1;
@@ -733,7 +738,7 @@ label:after:active {
 
 .testimonials {
   margin-top: 40px;
-  margin-left: 150px ;
+  margin-left: 150px;
   margin-right: 150px;
 }
 
@@ -743,7 +748,7 @@ label:after:active {
   gap: 20px;
 }
 
-.test-1 > div {
+.test-1>div {
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -754,39 +759,105 @@ label:after:active {
   padding: 30px;
 }
 
-.test-1 .testimg  img {
+.test-1 .testimg img {
   width: 10%;
   border-radius: 100%;
   text-align: center;
 }
 
-.test-1 .testimg > div:first-child {
+.test-1 .testimg>div:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 
-.test-1 .testimg > div:nth-child(2) p {
+.test-1 .testimg>div:nth-child(2) p {
   font-size: 20px;
   text-align: center;
   line-height: 1.5;
   color: #414142;
- 
+
 }
 
 
-.test-1 .testimg > div:nth-child(3)  {
+.test-1 .testimg>div:nth-child(3) {
   text-align: center;
 }
 
 
-.test-1 .testimg > div:nth-child(3) a {
+.test-1 .testimg>div:nth-child(3) a {
   color: rgb(58 186 180);
   text-decoration: none;
   font-weight: bold;
   margin-left: 5px;
 }
+
+
+
+.clarity {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  
+}
+
+.clarity .clarity-1 {
+  margin-left: 200px;
+  margin-right: 200px;
+
+
+}
+
+.clarity .clarity-1 >div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clarity .clarity-1 >div:first-child h2 {
+  font-size: 55px;
+  text-align: center;
+}
+
+
+.clar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: nowrap;
+}
+
+.clar2 .card {
+  padding: 30px 15px;
+  
+}
+
+.clar2 i{
+  font-size: 35px;
+  color: #f2f2f2;
+}
+
+.clarity-1 > div > div:nth-child(1) {
+  background-color: #4FD1C5 ;
+  color: #f2f2f2;
+}
+
+.clarity-1 > div > div:nth-child(2) {
+  background-color: #F687B3;
+  color: #f2f2f2;
+}
+
+.clarity-1 > div > div:nth-child(3) {
+  background-color:#007aff;
+  color: #f2f2f2;
+}
+
+.clarity-1 > div > div:nth-child(4) {
+  background-color:#ffcc89;
+  color: #f2f2f2;
+}
+
 
 
 /*Responsive */
