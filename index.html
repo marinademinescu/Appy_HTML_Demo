@@ -1,87 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Appy HTML Demo - Home</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
+    <script src="script.js"></script>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
+
 <body>
+
+
+    <div class="background"></div>
 
     <header>
         <section class="head">
-             <div class="hhead">
+            <div class="hhead">
                 <div class="hlogo">
                     <img class="svg-logo" src="img/img-logo/idOyeCj4_W_logos.png">
                     </img>
                 </div>
-
+                <div class="menu">
                     <ul class="nav-ul">
-                        <li>
-                            <a href="">About</a>
-                        </li>
-                          <li>
-                            <a href="">Blog</a>
-                        </li>
-                          <li>
-                            <a href="">Testimonials</a>
-                        </li>
-                          <li>
-                            <a href="">Resourse &#9660;</a>
-                            <ul>
-                                <li>
-                                    <a href="">Help Center</a>
-                                </li>
-                                <li>
-                                    <a href="">404</a>
-                                </li>
+                        <li> <a href="">About</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Testimonials</a></li>
+                        <li><a href="">Resourse &#9662; </a>
+                            <ul class="dropdown">
+                                <li><a href="">Help Center</a></li>
+                                <li><a href="">404</a></li>
                             </ul>
                         </li>
-                        
                     </ul>
-
-                    <button class="theme-mode">🌙 / ☀️</button>
-
-                   <div class="request"> 
-                 <button> Request code</button>
                 </div>
-             </div>
+
+                <div class="right">
+                    <!-- <button class="theme-mode">
+                        <i class='bx bx-moon bx-rotate-90 '></i> 
+                        <i class='bx bxs-sun bx-rotate-90 '></i>
+                    </button>  -->
+
+                    <input type="checkbox" id="dark-mode">
+                    <label for="dark-mode"></label>
+
+
+                    <button class="request"> Request code</button>
+
+
+                </div>
+
+            </div>
         </section>
 
         <section class="hbody">
             <div class="body1">
                 <div class="b-1">
-                     <h1>Your website, reimagined</h1>
-                <p>Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-                <form action="">
-                     <input type="text" placeholder="Phone number">
-                <button>
-                    <a href="">Request code</a>
-                </button>
-            </form>
+                    <h1>Your website, <br> reimagined</h1>
+                    <p>Our landing page template works on all devices, so you only have to set it up once, and get
+                        beautiful results forever.</p>
+                    <form action="">
+                        <input id="form-input" type="text" placeholder="Phone number">
 
-            <ul class="ulbody">
-                <li>Lorem ipsum is placeholder text commonly.</li>
-                <li>Excepteur sint occaecat cupidatat.</li>
-                <li>Lorem ipsum is placeholder text commonly.</li>
-            </ul>
-               
+                        <button class="request-b">
+                            <a href="">Request code</a>
+                        </button>
+                    </form>
+
+                    <ul class="ulbody">
+                        <li>Lorem ipsum is placeholder text commonly.</li>
+                        <li>Excepteur sint occaecat cupidatat.</li>
+                        <li>Lorem ipsum is placeholder text commonly.</li>
+                    </ul>
+
                 </div>
                 <div class="b-2">
-                    <img src="img/glow-illustration/cover.jpg.jpg" alt="glow-1" class="glow-1" >
-                    <img src="img/glow-illustration/mockup-image-01.jpg" alt="glow-2" class="glow-2" >
-                    <img src="img/glow-illustration/OIP.jpg" alt="glow-3" class="glow-3" >
+                    <img src="img/glow-illustration/cover.jpg.jpg" alt="glow-1" class="glow-1">
+                    <img src="img/glow-illustration/mockup-image-01.jpg" alt="glow-2" class="glow-2">
+
 
                 </div>
-               
+
             </div>
 
         </section>
-      
+
+        <div class="days">
+            <div class="day">
+                <div>
+                    <h3>2.4M</h3>
+                    <p>Days turn around</p>
+                </div>
+                <div>
+                    <h3>7M</h3>
+                    <p>Days turn around</p>
+                </div>
+                <div>
+                    <h3>7.4%</h3>
+                    <p>Days turn around</p>
+                </div>
+                <div>
+                    <h3>49K</h3>
+                    <p>Days turn around</p>
+                </div>
+            </div>
+
+        </div>
+
     </header>
 
-    
-</body>
-</html>
+    <!--parte dedicata ai Caroselli-->
 
+    <section class="section-carousell">
+        <div class="car-contenitore">
+            <div class="titolo">
+                <h1>From rough design files, to <br> powerful products</h1>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat <br> nulla
+                    pariatur
+                    excepteur sint occaecat cupidatat.</p>
+
+            </div>
+
+            <div class="carousel-container">
+                <div class="item1">
+                    <img src="img/img-carousell/OIP-1.carousell.jpg.jpg" alt="mic">
+                    <button class="Learn">Learn more</button>
+                    <button class="Creative">Creative service</button>
+                </div>
+                <div class="item1">
+                    <img src="img/img-carousell/OIP-2.carousell.jpg.jpg" alt="raga">
+                    <button class="Learn">Learn more</button>
+                    <button class="Creative">Creative service</button>
+                </div>
+                <div class="item1">
+                    <img src="img/img-carousell/OIP-3.carousell.jpg.jpg" alt="cape">
+                    <button class="Learn">Learn more</button>
+                    <button class="Creative">Creative service</button>
+                </div>
+                <div class="item1">
+                    <img src="img/img-carousell/OIP.carousell.jpg.jpg" alt="mano">
+                    <button class="Learn">Learn more</button>
+                    <button class="Creative">Creative service</button>
+                </div>
+
+            </div>
+
+            <div class="frecce">
+                <div class="frecce-button">
+                    <button class="button-prev"><span><i class='bx bx-left-arrow-alt'></i></span> </button>
+                    <button class="button-next"> <span><i class='bx bx-right-arrow-alt'></i></span></button>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="container-video">
+            <div class="video-h1">
+                <h1 class="vh1">Turn your ideas into reality in <br> seconds</h1>
+                <p class="vp">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    <br> nulla pariatur excepteur sint occaecat cupidatat.
+                </p>
+            </div>
+
+
+            <div class="video-b">
+                <div class="video-button">
+                    <button><span><i class='bx bx-stats'></i></span>Getting Started</button>
+                    <button><span><i class='bx bx-list-ul'></i></span>Collection list</button>
+                    <button><span><i class='bx bx-selection'></i></span>Element Hierarchy</button>
+                    <button><span><i class='bx bxs-objects-vertical-bottom'></i></span>Styling Basics</button>
+                    <button><span><i class='bx bxs-objects-vertical-bottom'></i></span>Image Field</button>
+
+                </div>
+                <div class="videoP">
+
+                    <div class="video-play">
+                        <img src="img/glow-illustration/OIP.jpg" alt="">
+                        <p>Using index pages</p>
+                        <p>2 Min</p>
+                    </div>
+                    <div class="video-play">
+                        <img src="img/glow-illustration/OIP.jpg" alt="">
+                        <p>Using index pages</p>
+                        <p>2 Min</p>
+                    </div>
+                    <div class="video-play">
+                        <img src="img/glow-illustration/OIP.jpg" alt="">
+                        <p>Using index pages</p>
+                        <p>2 Min</p>
+                    </div>
+                    <div class="video-play">
+                        <img src="img/glow-illustration/OIP.jpg" alt="">
+                        <p>Using index pages</p>
+                        <p>2 Min</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr>
+
+
+    <section class="mockup">
+        <div class="mock-1">
+            <div class="mock-2">
+                <h2>Build and style every element <br> to perfection</h2>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat <br> nulla
+                    pariatur excepteur sint occaecat cupidatat.</p>
+            </div>
+            <div class="Mo">
+
+                <div class="M1">
+                    <div class="m">1</div>
+                    <div>
+                        <img src="img/img.mokup/mockup-image-02.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="M1">
+                    <div class="m">2</div>
+                    <div>
+                        <img src="img/img.mokup/mockup-image-03.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="M1">
+                    <div class="m">3</div>
+                    <div>
+                        <img src="img/img.mokup/mockup-image-04.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
